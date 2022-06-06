@@ -1,4 +1,4 @@
-package com.obstcareapp;
+package com.testeapp;
 
 import android.os.Build;
 import android.os.Bundle;

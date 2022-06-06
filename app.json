@@ -1,8 +1,6 @@
 {
   "expo": {
-    "name": "obstcare-app",
-    "slug": "obstcare-app",
-    "version": "1.0.0",
+    "name": "test-app",
     "assetBundlePatterns": [
       "**/*"
     ]
