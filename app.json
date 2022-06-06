@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "teste-workdb",
+    "slug": "teste-workdb",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
