@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "teste-workdb",
-    "slug": "teste-workdb",
+    "name": "obstcare-app",
+    "slug": "obstcare-app",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
