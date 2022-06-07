@@ -23,7 +23,6 @@ export default function Home() {
   const [ loading, setLoading ] = useState<boolean>(false)
   const [ data, setData ] = useState<data>()
 
-console.log(data)
   const statusTime = (): any => {
     if(!data?.tempo){
       return {color: '#2aacd5', icon: 'snow', name: 'Escolha cidade'}
@@ -42,8 +41,6 @@ console.log(data)
     } 
   }
   const searchWeather = async () => {
-    console.log('deu bao')
-    // setLoading(true)
     const response = await getWeatherByCity(city)
     setLoading(false)
     setData(response)

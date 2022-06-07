@@ -6,7 +6,6 @@ import { ToastAndroid } from 'react-native';
 
 export async function getWeatherByCity(city: string) {
     const convertKelvinsInCelsius = (kelvin: number) =>  {
-        console.log(kelvin)
         return (kelvin - 273.15).toFixed(1)
     }
     const response: any = await api.get(`forecast?q=${city}&appid=${token}`).then().catch(
@@ -16,8 +15,6 @@ export async function getWeatherByCity(city: string) {
             }
         }
     )
-    console.log(1111, response.data)
-    // console.log(Object.keysr(response.data.list))
     let data = {
         temperatura: convertKelvinsInCelsius(response.data.list[0].main.temp),
         cidade: response?.data?.city?.name,
