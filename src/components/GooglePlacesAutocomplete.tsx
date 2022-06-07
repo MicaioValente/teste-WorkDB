@@ -1,7 +1,8 @@
 import React from 'react';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
-const GooglePlacesInput = () => {
+export default function GooglePlacesInput () {
+
   return (
     <GooglePlacesAutocomplete
       placeholder='Search'
@@ -16,5 +17,3 @@ const GooglePlacesInput = () => {
     />
   );
 };
-
-export default GooglePlacesInput;
